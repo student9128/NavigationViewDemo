@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/item_one">
+        <item
+            android:id="@+id/home"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="首页"
+            />
+    </group>
+    <group android:id="@+id/item_two">
+        <item
+            android:id="@+id/news"
+            android:checkable="true"
+            android:icon="@drawable/hello"
+            android:title="新闻"
+            />
+    </group>
+    <group android:id="@+id/item_three">
+        <item
+            android:id="@+id/favorite"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="收藏"
+            />
+    </group>
+    <group android:id="@+id/item_four">
+        <item
+            android:id="@+id/settings"
+            android:checkable="true"
+            android:icon="@drawable/hello"
+            android:title="设置"
+            />
+    </group>
+</menu>
